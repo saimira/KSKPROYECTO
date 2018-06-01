@@ -8,6 +8,7 @@ public class Bienvenida extends JFrame implements ActionListener{
   private JLabel label1, label2, label3, label4;
   private JButton boton1;
   public static String texto = "";
+  //hola
 
   public Bienvenida(){
     setLayout(null);
@@ -33,7 +34,7 @@ public class Bienvenida extends JFrame implements ActionListener{
     label3.setForeground(new Color(255,255,255));
     add(label3);
 
-    label4 = new JLabel("©2018 KSK Company");
+    label4 = new JLabel("Â©2018 KSK Company");
     label4.setBounds(85,375,300,30);
     label4.setFont(new Font("Andale Mono", 1, 12));
     label4.setForeground(new Color(255,255,255));
